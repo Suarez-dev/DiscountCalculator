@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.part-left
+{   
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part-left img{
+    width: 500px;
+    height: 500px;
+}
+.part-right
+{
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-up h1
+{
+    margin: 4px;
+    font-size: 44px;
+}
+.text-up .p{
+    font-size: 24px;
+}
+.text-up .p2{
+    color: gray;
+    margin-top: 24px;
+}
+.form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+    height: 300px;
+    width: 460px;
+    background-color: #6c63ff;
+}
+
+.form .label{
+    font-size: 20px;
+    margin: 12px;
+}
+
+.form .inputdiscount{
+    width: 400px;
+    height: 34px;
+}
+
+.form .inputprice{
+    width: 400px;
+    height: 34px;
+}
+
+.footer{
+    background-color: #6c63ff;
+    width: 460px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.miboton{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 40px;
+    font-size: 14px;
+    padding: 14px;
+    border: 1px solid transparent;
+    background-color: white;
+}
+
+.price{
+    border: 1px solid transparent;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}

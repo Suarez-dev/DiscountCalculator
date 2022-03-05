@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <link rel="stylesheet" href="Discount_calculator.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="part-left">
+            <img src="undraw_calculator_re_jy39.svg" alt="">
+        </div>
+        <div class="part-right">
+            <div>
+
+            <div class="text-up">
+                <h1>Discount Calculator</h1>
+                <p class="p">A simple discount calculator for any product. Try it! </p>
+                <p class="p2">Created by: Danny Rodas
+                <br>
+                Last Edited: Aug 17, 2021</p>
+            </div>
+
+            <form  class="form">
+                <label for="inputPrice" class="label">
+                       Product Price:
+                </label>
+              
+                <input type="number" id="inputprice" class="inputprice" >
+    
+    
+                <label for="inputDiscount" class="label">
+                    Discount Percentage:
+                </label>
+    
+                <input type="number" id="inputdiscount" class="inputdiscount">
+    
+              
+                <button class="miboton" type="button" onclick="pagare()">
+                    calcular el precio con descuento
+                </button>
+    
+    
+                <p id="finalprice" class="price">
+    
+                </p>
+    
+            </form>
+
+        </div>
+
+        </div>
+    </div>
+     <script src="descuentos.js"></script> 
+
+</body>
+</html>
